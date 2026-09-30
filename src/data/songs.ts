@@ -1,0 +1,160 @@
+import { GameCard } from './types';
+
+export const teluguSongs: GameCard[] = [
+  {
+    id: "song_naatu_naatu",
+    answer: "Naatu Naatu",
+    telugu: "నాటు నాటు",
+    tanglish: "Naatu Naatu (Oscar Winner)",
+    subtext: "RRR • M. M. Keeravani • Ram Charan & Jr NTR suspenders hookstep dance",
+    teluguSubtext: "ఆర్ఆర్ఆర్ • రామ్ చరణ్ & జూనియర్ ఎన్టీఆర్ ఆస్కార్ సాంగ్",
+    category: "songs",
+    tags: ["dance", "oscar", "rrr"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "song_kurchi_madathapetti",
+    answer: "Kurchi Madathapetti",
+    telugu: "కుర్చీ మడతపెట్టి",
+    tanglish: "Kurchi Madathapetti",
+    subtext: "Guntur Kaaram • Thaman S • Mahesh Babu & Sreeleela high-energy mass dance",
+    teluguSubtext: "గుంటూరు కారం • మహేష్ బాబు & శ్రీలీల డాన్స్",
+    category: "songs",
+    tags: ["dance", "mass", "guntur kaaram"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "song_oo_antava",
+    answer: "Oo Antava Mava... Oo Oo Antava",
+    telugu: "ఊ అంటావా మావా... ఊ ఊ అంటావా",
+    tanglish: "Oo Antava Mava",
+    subtext: "Pushpa: The Rise • Devi Sri Prasad • Samantha & Allu Arjun item song",
+    teluguSubtext: "పుష్ప • సమంత & అల్లు అర్జున్",
+    category: "songs",
+    tags: ["mass", "pushpa", "dance"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "song_samajavaragamana",
+    answer: "Samajavaragamana",
+    telugu: "సామజవరగమన",
+    tanglish: "Samajavaragamana",
+    subtext: "Ala Vaikunthapurramuloo • Thaman S • Sid Sriram vocals • Allu Arjun & Pooja Hegde",
+    teluguSubtext: "అల వైకుంఠపురములో • సిడ్ శ్రీరామ్",
+    category: "songs",
+    tags: ["romance", "avpl"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "song_butta_bomma",
+    answer: "Butta Bomma",
+    telugu: "బుట్టబొమ్మ",
+    tanglish: "Butta Bomma",
+    subtext: "Ala Vaikunthapurramuloo • Armaan Malik • Famous hand-in-pocket hookstep",
+    teluguSubtext: "అల వైకుంఠపురములో • అల్లు అర్జున్ & పూజా హెగ్డే",
+    category: "songs",
+    tags: ["romance", "dance"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "song_saranga_dariya",
+    answer: "Saranga Dariya",
+    telugu: "సారంగ దరియా",
+    tanglish: "Saranga Dariya",
+    subtext: "Love Story • Pawan Ch • Sai Pallavi's viral Telangana folk dance",
+    teluguSubtext: "లవ్ స్టోరీ • సాయి పల్లవి జానపద నృత్యం",
+    category: "songs",
+    tags: ["folk", "dance"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "song_srivalli",
+    answer: "Srivalli (Choope Bangaramayene)",
+    telugu: "శ్రీవల్లి (చూపే బంగారమాయెనే)",
+    tanglish: "Srivalli",
+    subtext: "Pushpa: The Rise • Sid Sriram • Famous slipper-drop dance step by Allu Arjun",
+    teluguSubtext: "పుష్ప • అల్లు అర్జున్ చెప్పు జారే స్టెప్",
+    category: "songs",
+    tags: ["romance", "pushpa"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "song_chuttamalle",
+    answer: "Chuttamalle",
+    telugu: "చుట్టమల్లే",
+    tanglish: "Chuttamalle",
+    subtext: "Devara: Part 1 • Anirudh Ravichander • Shilpa Rao • Jr NTR & Janhvi Kapoor",
+    teluguSubtext: "దేవర • జూనియర్ ఎన్టీఆర్ & జాన్వీ కపూర్",
+    category: "songs",
+    tags: ["romance", "devara"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "song_rangamma_mangamma",
+    answer: "Rangamma Mangamma",
+    telugu: "రంగమ్మ మంగమ్మ",
+    tanglish: "Rangamma Mangamma",
+    subtext: "Rangasthalam • Devi Sri Prasad • Samantha teasing Chitti Babu",
+    teluguSubtext: "రంగస్థలం • సమంత & రామ్ చరణ్",
+    category: "songs",
+    tags: ["folk", "romance"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "song_boss_party",
+    answer: "Boss Party",
+    telugu: "బాస్ పార్టీ",
+    tanglish: "Boss Party (Where is the Party?)",
+    subtext: "Waltair Veerayya • DSP • Chiranjeevi & Urvashi Rautela lungi mass song",
+    teluguSubtext: "వాల్తేరు వీరయ్య • చిరంజీవి మాస్ సాంగ్",
+    category: "songs",
+    tags: ["mass", "chiranjeevi"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "song_inkem_inkem",
+    answer: "Inkem Inkem Inkem Kaavaale",
+    telugu: "ఇంకేం ఇంకేం ఇంకేం కావాలే",
+    tanglish: "Inkem Inkem Kaavaale",
+    subtext: "Geetha Govindam • Gopi Sundar • Sid Sriram • Vijay Deverakonda & Rashmika",
+    teluguSubtext: "గీత గోవిందం • విజయ్ దేవరకొండ & రష్మిక",
+    category: "songs",
+    tags: ["romance"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "song_tillu_anna_dj",
+    answer: "Tillu Anna DJ Pedithe",
+    telugu: "టిల్లు అన్న డీజే పెడితే",
+    tanglish: "Tillu Anna DJ Pedithe",
+    subtext: "DJ Tillu • Ram Miriyala • The ultimate Hyderabadi youth party anthem",
+    teluguSubtext: "డీజే టిల్లు • రామ్ మిరియాల",
+    category: "songs",
+    tags: ["comedy", "mass"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "song_fear_song",
+    answer: "All Hail The Tiger (Fear Song)",
+    telugu: "ఫియర్ సాంగ్ (దేవర)",
+    tanglish: "Fear Song (Devara)",
+    subtext: "Devara: Part 1 • Anirudh Ravichander • High energy ocean combat beats",
+    teluguSubtext: "దేవర • అనిరుధ్",
+    category: "songs",
+    tags: ["mass", "devara"],
+    difficulty: "easy",
+    isFamilySafe: true
+  }
+];

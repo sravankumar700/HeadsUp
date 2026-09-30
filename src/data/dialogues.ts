@@ -1,0 +1,172 @@
+import { GameCard } from './types';
+
+export const teluguDialogues: GameCard[] = [
+  {
+    id: "dia_thaggede_le",
+    answer: "Thaggede Le!",
+    telugu: "తగ్గేదే లే!",
+    tanglish: "Thaggede Le!",
+    subtext: "Pushpa: The Rise & Pushpa 2 • Spoken by Allu Arjun with beard rub gesture",
+    teluguSubtext: "పుష్ప • అల్లు అర్జున్ గడ్డం కింద చేయి పెట్టి చెప్పే డైలాగ్",
+    category: "dialogues",
+    tags: ["punch", "mass", "pushpa"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "dia_evadu_kodithe",
+    answer: "Evadu kodithe dhimma thirigi mind block aipoddo...",
+    telugu: "ఎవడు కొడితే దిమ్మ తిరిగి మైండ్ బ్లాక్ అయిపోద్దో...",
+    tanglish: "Evadu kodithe dhimma thirigi...",
+    subtext: "Pokiri • Mahesh Babu • '...aade Pandu gadu!'",
+    teluguSubtext: "పోకిరి • మహేష్ బాబు • '...ఆడే పండు గాడు!'",
+    category: "dialogues",
+    tags: ["punch", "mass", "mahesh babu"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "dia_choodu_oka_vaipe",
+    answer: "Choodu oka vaipe choodu, రెండో వైపు చూడాలనుకోకు!",
+    telugu: "చూడు ఒక వైపే చూడు, రెండో వైపు చూడాలనుకోకు!",
+    tanglish: "Choodu oka vaipe choodu...",
+    subtext: "Simha • Balakrishna • '...thattukolevu, maadipothav!'",
+    teluguSubtext: "సింహా • బాలకృష్ణ • '...తట్టుకోలేవు, మాడిపోతావ్!'",
+    category: "dialogues",
+    tags: ["punch", "mass", "balayya"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "dia_okkasaari_commit",
+    answer: "Okkasaari commit aithe naa maata nene vinanu!",
+    telugu: "ఒక్కసారి కమిట్ అయితే నా మాట నేనే వినను!",
+    tanglish: "Okkasari commit aithe...",
+    subtext: "Pokiri • Mahesh Babu • Iconic commitment punch line",
+    teluguSubtext: "పోకిరి • మహేష్ బాబు • ఐకానిక్ పంచ్ డైలాగ్",
+    category: "dialogues",
+    tags: ["punch", "mahesh babu"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "dia_idhe_naa_maata",
+    answer: "Idhe naa maata, naa maate saasanam!",
+    telugu: "ఇదే నా మాట, నా మాటే శాసనం!",
+    tanglish: "Naa maate saasanam!",
+    subtext: "Baahubali • Sivagami (Ramya Krishna) declaring throne decree",
+    teluguSubtext: "బాహుబలి • రమ్యకృష్ణ (శివగామి దేవి)",
+    category: "dialogues",
+    tags: ["punch", "baahubali"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "dia_athla_untadhi",
+    answer: "Athla untadhi manathoni!",
+    telugu: "అట్ల ఉంటది మనతోని!",
+    tanglish: "Athla untadhi manathoni!",
+    subtext: "DJ Tillu • Siddhu Jonnalagadda • Hyderabadi slang attitude line",
+    teluguSubtext: "డీజే టిల్లు • సిద్ధు జొన్నలగడ్డ • టిల్లు అన్న స్టైల్",
+    category: "dialogues",
+    tags: ["comedy", "cult", "tillu"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "dia_naa_saavu_nenu",
+    answer: "Naa saavu nenu sastha neekenduku!",
+    telugu: "నా సావు నేను సస్తా నీకెందుకు!",
+    tanglish: "Naa saavu nenu sastha...",
+    subtext: "Pelli Choopulu • Priyadarshi (Kaushik) on the terrace drinking beer",
+    teluguSubtext: "పెళ్ళి చూపులు • ప్రియదర్శి (కౌశిక్)",
+    category: "dialogues",
+    tags: ["comedy", "cult"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "dia_kurchi_madathapetti",
+    answer: "Kurchi madathapetti...!",
+    telugu: "కుర్చీ మడతపెట్టి...!",
+    tanglish: "Kurchi Madathapetti!",
+    subtext: "Guntur Kaaram & Viral Uncle Dialogue • Mahesh Babu dance song hook",
+    teluguSubtext: "గుంటూరు కారం • మహేష్ బాబు & వైరల్ మీమ్ డైలాగ్",
+    category: "dialogues",
+    tags: ["mass", "meme", "guntur kaaram"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "dia_naakkonchem_thikka",
+    answer: "Naakkonchem thikka undhi, kaani daaniko lekkundhi!",
+    telugu: "నాక్కొంచెం తిక్క ఉంది, కానీ దానికో లెక్కుంది!",
+    tanglish: "Naak konchem thikka undhi...",
+    subtext: "Gabbar Singh • Pawan Kalyan holding the police belt",
+    teluguSubtext: "గబ్బర్ సింగ్ • పవన్ కళ్యాణ్ పోలీస్ బెల్ట్ తిప్పుతూ చెప్పే డైలాగ్",
+    category: "dialogues",
+    tags: ["punch", "pawan kalyan", "mass"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "dia_gap_ivvaledu",
+    answer: "Gap ivvaledu, vachindi!",
+    telugu: "గ్యాప్ ఇవ్వలేదు, వచ్చింది!",
+    tanglish: "Gap ivvaledu, vachindi!",
+    subtext: "Ala Vaikunthapurramuloo • Allu Arjun boardroom board meeting scene",
+    teluguSubtext: "అల వైకుంఠపురములో • అల్లు అర్జున్ బోర్డ్‌రూమ్ సీన్",
+    category: "dialogues",
+    tags: ["mass", "allu arjun", "trivikram"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "dia_bhanumathi_single_piece",
+    answer: "Bhanumathi... Single piece!",
+    telugu: "భానుమతి... సింగిల్ పీస్!",
+    tanglish: "Bhanumathi Single Piece!",
+    subtext: "Fidaa • Sai Pallavi describing herself with swagger",
+    teluguSubtext: "ఫిదా • సాయి పల్లవి • హైబ్రిడ్ పిల్లా!",
+    category: "dialogues",
+    tags: ["romance", "cult"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "dia_preethi_is_mine",
+    answer: "Preethi is mine! Nobody should touch her!",
+    telugu: "ప్రీతి నాది! ఎవ్వడూ టచ్ చేయకూడదు!",
+    tanglish: "Preethi is mine!",
+    subtext: "Arjun Reddy • Vijay Deverakonda entering college classroom",
+    teluguSubtext: "అర్జున్ రెడ్డి • విజయ్ దేవరకొండ క్లాస్‌రూమ్ డైలాగ్",
+    category: "dialogues",
+    tags: ["cult"],
+    difficulty: "easy",
+    isFamilySafe: false
+  },
+  {
+    id: "dia_simham_gaddam",
+    answer: "Choodappa Siddappa, Simham gaddam geesukodu!",
+    telugu: "చూడప్పా సిద్దప్పా, సింహం గడ్డం గీసుకోదు!",
+    tanglish: "Simham gaddam geesukodu!",
+    subtext: "Attarintiki Daredi • Pawan Kalyan confrontation in car warehouse",
+    teluguSubtext: "అత్తారింటికి దారేది • పవన్ కళ్యాణ్ (గౌతమ్ నందా)",
+    category: "dialogues",
+    tags: ["punch", "pawan kalyan", "trivikram"],
+    difficulty: "easy",
+    isFamilySafe: true
+  },
+  {
+    id: "dia_bhoomi_meeda_100_mandhi",
+    answer: "Okkokkadini kaadu Sher Khan, 100 mandhini okesari pampu!",
+    telugu: "ఒక్కొక్కడిని కాదు షేర్ ఖాన్, 100 మందిని ఒకేసారి పంపు!",
+    tanglish: "100 mandhini okesari pampu!",
+    subtext: "Magadheera • Ram Charan (Kala Bhairava) at Bhairavakona cliff",
+    teluguSubtext: "మగధీర • రామ్ చరణ్ (కాలభైరవ)",
+    category: "dialogues",
+    tags: ["punch", "mass", "ram charan"],
+    difficulty: "easy",
+    isFamilySafe: true
+  }
+];

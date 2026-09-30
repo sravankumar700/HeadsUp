@@ -1,0 +1,6 @@
+{
+  "name": "Mana Heads Up",
+  "description": "The ultimate Telugu & Indian cinema party guessing game. Place your phone on your forehead, guess with friends, tilt down for correct, tilt up to pass!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

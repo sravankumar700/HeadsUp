@@ -1,0 +1,21 @@
+{
+  "id": "/",
+  "name": "Mana Heads Up - Cinema Cheppu",
+  "short_name": "ManaHeadsUp",
+  "description": "The ultimate Telugu & Indian cinema party guessing game for friends and family.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0d0907",
+  "theme_color": "#0d0907",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
